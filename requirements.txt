@@ -1,0 +1,13 @@
+asyncio
+fastapi[all]
+sse-starlette
+jinja2
+
+SQLAlchemy
+psycopg2-binary
+uvicorn[standard]
+
+pandas
+numpy
+websockets
+wsproto
