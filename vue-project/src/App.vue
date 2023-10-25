@@ -8,7 +8,8 @@
           <th>Market</th>
           <th>Symbol</th>
           <th>Datetime</th>
-          <th>Buy Position</th>
+          <th>Position</th>
+          <th>Signal</th>
           <th>Current Price</th>
         </tr>
       </thead>
@@ -18,7 +19,8 @@
           <td>{{ item.market }}</td>
           <td>{{ item.sym }}</td>
           <td>{{ formatDatetime(item) }}</td>
-          <td>{{ item.buy_position || 'N/A' }}</td>
+          <td>{{ item.position || 'N/A' }}</td>
+          <td>{{ item.signal || 'N/A' }}</td>
           <td>{{ item.current_price }}</td>
         </tr>
       </tbody>
